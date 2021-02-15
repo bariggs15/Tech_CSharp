@@ -1,0 +1,12 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\netcoreapp3.1\myConsoleProject.cs.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\netcoreapp3.1\myConsoleProject.cs.deps.json
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\netcoreapp3.1\myConsoleProject.cs.runtimeconfig.json
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\netcoreapp3.1\myConsoleProject.cs.runtimeconfig.dev.json
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\netcoreapp3.1\myConsoleProject.cs.dll
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\bin\Debug\netcoreapp3.1\myConsoleProject.cs.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\netcoreapp3.1\myConsoleProject.cs.AssemblyInfoInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\netcoreapp3.1\myConsoleProject.cs.AssemblyInfo.cs
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\netcoreapp3.1\myConsoleProject.cs.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\netcoreapp3.1\myConsoleProject.cs.dll
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\netcoreapp3.1\myConsoleProject.cs.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\myConsoleProject.cs\myConsoleProject.cs\obj\Debug\netcoreapp3.1\myConsoleProject.cs.genruntimeconfig.cache
