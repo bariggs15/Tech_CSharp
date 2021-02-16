@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\AcmeAcct\AcmeAcct\bin\Debug\AcmeAcct.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\AcmeAcct\AcmeAcct\bin\Debug\AcmeAcct.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\AcmeAcct\AcmeAcct\bin\Debug\AcmeAcct.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\AcmeAcct\AcmeAcct\obj\Debug\AcmeAcct.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\AcmeAcct\AcmeAcct\obj\Debug\AcmeAcct.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\AcmeAcct\AcmeAcct\obj\Debug\AcmeAcct.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\AcmeAcct\AcmeAcct\obj\Debug\AcmeAcct.pdb
