@@ -34,13 +34,10 @@ namespace DailyReport
             Console.WriteLine(page + " is a good start!");
             Console.ReadLine();
 
+            //need help?
             Console.WriteLine("Need help with anything? ('true' or 'false')");
             Console.ReadLine();
-            bool needHelp = true;
-            string helpStatus = Convert.ToString(needHelp);
-            Console.WriteLine(helpStatus);
-            Console.ReadLine();
-
+            
             //Positive experience
             Console.WriteLine("Have you had any positive experiences you'd like to share?");
             Console.ReadLine();
