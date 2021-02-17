@@ -10,340 +10,484 @@ namespace MathOperators
     {
         static void Main()
         {
+            
+            //*************************************WHILE LOOP, DO/WHILE LOOP RIGHT BELOW IT**********************************************
 
-            //*****************************BRANCHING ASSIGNMENT********************************
+            Console.WriteLine("guess a famous movie character");
+            string movieChar = Console.ReadLine();
+            bool guess = movieChar == "Jack Bauer";
 
-            Console.WriteLine("Welcome to Package Express. Please follow instructions below");
-
-            Console.WriteLine("Please input package weight");
-            int packWeight = Convert.ToInt32(Console.ReadLine());
-
-            if (packWeight > 50)
+            
+                switch (movieChar)
             {
-                Console.WriteLine("Package to heavy to be shipped via Package Express. Have a good day.");
+                case "Jack Bauer":
+                    Console.WriteLine("you have great taste in movies");
+                    guess = true;
+                    break;
+                default:
+                    Console.WriteLine("not correct, who else can you think of?");
+                    movieChar = Console.ReadLine();
+                    break;
             }
-            else
-            {
-                Console.WriteLine("That's great, please continue...");
+            Console.ReadLine();
+            
+            ////breakfast do/while loop
+            //Console.WriteLine("What did you have for breakfast?");
+            //string food = Console.ReadLine();
+            //bool protein = food == "eggs";
 
-            }
-                Console.ReadLine();
+            //do
+            //{
+            //    switch (food)
+            //    {
+            //        case "cereal":
+            //            Console.WriteLine("cereal has too much sugar, try again");
+            //            Console.WriteLine("what else can you eat?");
+            //            food = Console.ReadLine();
+            //            break;
+            //        case "oatmeal":
+            //            Console.WriteLine("oatmeal has too much starch, try again");
+            //            Console.WriteLine("what else can you eat?");
+            //            food = Console.ReadLine();
+            //            break;
+            //        case "poptarts":
+            //            Console.WriteLine("are you 5 years old, try again");
+            //            Console.WriteLine("what else can you eat?");
+            //            food = Console.ReadLine();
+            //            break;
+            //        default:
+            //            Console.WriteLine("try again");
+            //            Console.WriteLine("what else can you eat?");
+            //            food = Console.ReadLine();
+            //            break;
+            //        case "eggs":
+            //            Console.WriteLine("finally, some good protein in your body");
+            //            protein = true;
+            //            break;
+            //    }
+            //}
+            //while (!protein);
+            //Console.ReadLine();
 
-            Console.WriteLine("what is the height of package?");
-            int packHeight = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("What is the width of package?");
-            int packWidth = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("What is the length of package?");
-            int packLength = Convert.ToInt32(Console.ReadLine());
 
-            int total = (packWidth + packLength + packHeight);
+            ////************************LOOPS******************************************
 
-            if (packWeight > 50 || total > 50)
-            {
+            //Console.WriteLine("Guess a number?");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //bool isGuessed = num1 == 12;
 
-                Console.WriteLine("Your package is too big to be shipped via Package Express. Have a great day");
-            }
-            else
-            {
-                int shippingCost = Convert.ToInt32(((packHeight * packLength * packWidth) * packWeight) / 100);
+            //do
+            //{
+            //    switch (num1)
+            //    {
+            //        case 62:
+            //            Console.WriteLine("you guessed 62. try again");
+            //            Console.WriteLine("Guess a number?");
+            //            num1 = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 29:
+            //            Console.WriteLine("you guessed 29. try again");
+            //            Console.WriteLine("Guess a number?");
+            //            num1 = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 55:
+            //            Console.WriteLine("you guessed 55. try again");
+            //            Console.WriteLine("Guess a number?");
+            //            num1 = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 12:
+            //            Console.WriteLine("you guessed 12. that is correct");
+            //            isGuessed = true;
+            //            break;
+
+            //        default:
+            //            Console.WriteLine("you are wrong");
+            //            Console.WriteLine("Guess a number?");
+            //            num1 = Convert.ToInt32(Console.ReadLine());
+            //            break;
+
+            //    }
+            //}
+            //while (!isGuessed);
                 
-                Console.WriteLine("Your estimated total for shipping this package is: $" + shippingCost);
-                Console.ReadLine();
-            }
-
-        
-
-
-        //********************BRANCHING (TERNARY OPERATOR)********************************
-
-
-        //Console.WriteLine("what is your favorite number?");
-        //int favNum = Convert.ToInt32(Console.ReadLine());
-
-        //string results = favNum == 12 ? "you have an awesome fav number" : "You do not have an awersome fav number";
-        //Console.WriteLine(results);
-        //Console.ReadLine();
-
-        //int roomTemp = 70;
-
-        //Console.WriteLine("Hi what is your name?");
-        //string name = Console.ReadLine();
-
-        //Console.WriteLine("Hi" + name + ", what is the temp where you are?");
-        //int currentTemp = Convert.ToInt32(Console.ReadLine());
-
-        //if (currentTemp == roomTemp)
-        //{
-        //    Console.WriteLine("it is exactly room temp");
-        //}
-        //else if (currentTemp > roomTemp)
-        //{
-        //    Console.WriteLine("it is warmer than room temp");
-        //}
-        //else if (currentTemp < roomTemp)
-        //{
-        //    Console.WriteLine("it is cooler than room temp");
-        //}
-        //else
-        //{
-        //    Console.WriteLine("something went wrong");
-        //}
-        //Console.ReadLine();
-
-        //int currentTemp = 50;
-        //int roomTemp = 70;
-
-        //string comparisonResults = currentTemp == roomTemp ? "It is room temp." : "It is not room temp.";
-        //Console.WriteLine(comparisonResults);
-        //Console.ReadLine();
-
-        //if (currentTemp == roomTemp)
-        //{
-        //    Console.WriteLine("it is exactly room temp.");
-        //}
-        //else if (currentTemp > roomTemp)
-        //{
-        //    Console.WriteLine("it is warmer than room temp");
-        //}
-
-        //else if (currentTemp < roomTemp)
-        //{
-        //    Console.WriteLine("it is cooler than room temp");
-        //}
-        //else
-        //{
-        //    Console.WriteLine("it is not room temp");
-        //}
-        //Console.ReadLine();
-
-        //**************************MORE PRACTICE WITH COMPARATOR OPERATORS**********************************
-
-        //Console.WriteLine("How old are you?");
-        //int age = Convert.ToInt32(Console.ReadLine());
-
-        //if (age >= 16)
-        //{
-        //    Console.WriteLine("you can get a DL");
-        //}
-        //else
-        //{ 
-        //    Console.WriteLine("the roads are much safer");
-        //}
-        //Console.ReadLine();
-
-        //int salary = 40000;
-
-        //if (salary <=38000)
-        //{
-        //    Console.WriteLine("you can't buy a car");
-        //}
-        //else
-        //{
-        //    Console.WriteLine("Buy something modest");
-        //}
-        //Console.ReadLine();
-
+            //Console.ReadLine();
 
-        //Console.WriteLine("What is your favorite fruit?");
-        // string fruit = Console.ReadLine();
 
-        //if (fruit == "orange") 
-        //{
-        //    Console.WriteLine("your favorite fruit is orange");
-        //}
-        //else if (fruit == "tomato")
-        //{
-        //    Console.WriteLine("your favorite fruit is tomato");
-        //}
-        //else
-        //{
-        //    Console.WriteLine("Your favorite fruit is something else...");
 
-        //}
-        //Console.ReadLine();
 
 
-        //Console.WriteLine("What is your favorite number?");
-        //int num1 = Convert.ToInt32(Console.ReadLine());
 
-        //if (num1 != 15)
-        //{
-        //    Console.WriteLine("you are nuts");
-        //}
 
-        //else
-        //{
-        //    Console.WriteLine("You know what the best number is");
 
-        //}
-        //Console.ReadLine();
 
 
-        //*************************************BOOLEAN LOGIC ASSIGNMENT***********************************
 
-        //Console.WriteLine("what is your age?");
-        //int age = Convert.ToInt32(Console.ReadLine());
+        ////*****************************BRANCHING ASSIGNMENT********************************
 
+            //Console.WriteLine("Welcome to Package Express. Please follow instructions below");
 
-        //Console.WriteLine("Have you ever had a DUI (true or false)?");
-        //bool DUI = Convert.ToBoolean(Console.ReadLine());
+            //Console.WriteLine("Please input package weight");
+            //int packWeight = Convert.ToInt32(Console.ReadLine());
 
-        //Console.WriteLine("how many speeding tickets do you have?");
-        //int tickets = Convert.ToInt32(Console.ReadLine());
+            //if (packWeight > 50)
+            //{
+            //    Console.WriteLine("Package to heavy to be shipped via Package Express. Have a good day.");
+            // }
+            //else
+            //{
+            //    Console.WriteLine("That's great, please continue...");
+            //    Console.WriteLine("what is the height of package?");
+            //    int packHeight = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("What is the width of package?");
+            //    int packWidth = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("What is the length of package?");
+            //    int packLength = Convert.ToInt32(Console.ReadLine());
 
-        //Console.WriteLine("Do you qualify?  " + (age>15 && (DUI == false) && tickets < 3) );
-        //Console.ReadLine();
+            //    int total = (packWidth + packLength + packHeight);
 
+            //    if (total > 50)
+            //{
 
-        //************************************BOOLEAN OPERATORS*************************************************************
+            //    Console.WriteLine("Your package is too big to be shipped via Package Express. Have a great day");
+            //}
+            //else
+            //{
+            //    int shippingCost = Convert.ToInt32(((packHeight * packLength * packWidth) * packWeight) / 100);
 
-        ////&& operator
-        //Console.WriteLine(true && false);
-        //Console.WriteLine(true && true);
-        //Console.WriteLine(false && false);
-        //Console.ReadLine();
+            //    Console.WriteLine("Your estimated total for shipping this package is: $" + shippingCost);
+            //    Console.ReadLine();
+            //}
 
-        //// || operator
-        //Console.WriteLine(true || false);
-        //Console.WriteLine(true || true);
-        //Console.WriteLine(false || false);
-        //Console.ReadLine();
+            //}
+            //Console.ReadLine();
 
-        ////== operator
-        //Console.WriteLine(true ==false);
-        //Console.WriteLine(true == true);
-        //Console.WriteLine(false == false);
-        //Console.ReadLine();
+            //*************************SWITCHES****************************************
 
-        //// != operator
-        //Console.WriteLine(true != false);
-        //Console.WriteLine(true != true);
-        //Console.WriteLine(false != false);
-        //Console.ReadLine();
+            //Console.WriteLine("Type the day of the week to determine where what number correlates");
+            //string day = Console.ReadLine();
 
-        //// Xor operator (if one is true, it's true... but not both)
-        //Console.WriteLine(true ^ false);
-        //Console.WriteLine(true ^ true);
-        //Console.WriteLine(false ^ false);
-        //Console.ReadLine();
+            //switch (day)
+            //{
+            //    case "Sunday":
+            //        Console.WriteLine("1");
+            //        break;
+            //    case "Monday":
+            //        Console.WriteLine("2");
+            //        break;
+            //    case "Tuesday":
+            //        Console.WriteLine("3");
+            //        break;
+            //    case "Wednesday":
+            //        Console.WriteLine("4");
+            //        break;
+            //    case "Thursday":
+            //        Console.WriteLine("5");
+            //        break;
+            //    case "Friday":
+            //        Console.WriteLine("6");
+            //        break;
+            //    case "Saturday":
+            //        Console.WriteLine("7");
+            //        break;
+            //}
 
-        //***************************************PRACTICE INCOME COMPARISON ASSIGNMENT*************************************************
+            //Console.ReadLine();
 
-        //Console.WriteLine("Anonymous Income Comparison Program" + "-------------------");
+    
+           
+
+
+
+            //********************BRANCHING (TERNARY OPERATOR)********************************
+
+
+            //Console.WriteLine("what is your favorite number?");
+            //int favNum = Convert.ToInt32(Console.ReadLine());
+
+            //string results = favNum == 12 ? "you have an awesome fav number" : "You do not have an awersome fav number";
+            //Console.WriteLine(results);
+            //Console.ReadLine();
+
+            //int roomTemp = 70;
+
+            //Console.WriteLine("Hi what is your name?");
+            //string name = Console.ReadLine();
+
+            //Console.WriteLine("Hi" + name + ", what is the temp where you are?");
+            //int currentTemp = Convert.ToInt32(Console.ReadLine());
+
+            //if (currentTemp == roomTemp)
+            //{
+            //    Console.WriteLine("it is exactly room temp");
+            //}
+            //else if (currentTemp > roomTemp)
+            //{
+            //    Console.WriteLine("it is warmer than room temp");
+            //}
+            //else if (currentTemp < roomTemp)
+            //{
+            //    Console.WriteLine("it is cooler than room temp");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("something went wrong");
+            //}
+            //Console.ReadLine();
+
+            //int currentTemp = 50;
+            //int roomTemp = 70;
+
+            //string comparisonResults = currentTemp == roomTemp ? "It is room temp." : "It is not room temp.";
+            //Console.WriteLine(comparisonResults);
+            //Console.ReadLine();
+
+            //if (currentTemp == roomTemp)
+            //{
+            //    Console.WriteLine("it is exactly room temp.");
+            //}
+            //else if (currentTemp > roomTemp)
+            //{
+            //    Console.WriteLine("it is warmer than room temp");
+            //}
+
+            //else if (currentTemp < roomTemp)
+            //{
+            //    Console.WriteLine("it is cooler than room temp");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("it is not room temp");
+            //}
+            //Console.ReadLine();
+
+            //**************************MORE PRACTICE WITH COMPARATOR OPERATORS**********************************
+
+            //Console.WriteLine("How old are you?");
+            //int age = Convert.ToInt32(Console.ReadLine());
+
+            //if (age >= 16)
+            //{
+            //    Console.WriteLine("you can get a DL");
+            //}
+            //else
+            //{ 
+            //    Console.WriteLine("the roads are much safer");
+            //}
+            //Console.ReadLine();
+
+            //int salary = 40000;
+
+            //if (salary <=38000)
+            //{
+            //    Console.WriteLine("you can't buy a car");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Buy something modest");
+            //}
+            //Console.ReadLine();
+
+
+            //Console.WriteLine("What is your favorite fruit?");
+            // string fruit = Console.ReadLine();
+
+            //if (fruit == "orange") 
+            //{
+            //    Console.WriteLine("your favorite fruit is orange");
+            //}
+            //else if (fruit == "tomato")
+            //{
+            //    Console.WriteLine("your favorite fruit is tomato");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Your favorite fruit is something else...");
 
+            //}
+            //Console.ReadLine();
+
 
-        //Console.WriteLine("person1");
-        //Console.WriteLine("What is hourly rate for person1?");
-        //int hourRate1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("What is your favorite number?");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
 
-        //Console.WriteLine("What is number of hours worked per week?");
-        //int hoursWorked1 = Convert.ToInt32(Console.ReadLine());
+            //if (num1 != 15)
+            //{
+            //    Console.WriteLine("you are nuts");
+            //}
 
-        //Console.WriteLine("person2");
-        //Console.WriteLine("What is hourly rate for person2?");
-        //int hourRate2 = Convert.ToInt32(Console.ReadLine());
+            //else
+            //{
+            //    Console.WriteLine("You know what the best number is");
 
-        //Console.WriteLine("What is number of hours worked per week?");
-        //int hoursWorked2 = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.ReadLine();
 
-        //int annualSal1 = (hourRate1 * hoursWorked1 * 52);
-        //int annualSal2 = (hourRate2 * hoursWorked2 * 52);
 
-        //Console.WriteLine("Annual salary of person1: " + annualSal1);
+            //*************************************BOOLEAN LOGIC ASSIGNMENT***********************************
 
-        //Console.WriteLine("Annual salary of person2: " + annualSal2);
+            //Console.WriteLine("what is your age?");
+            //int age = Convert.ToInt32(Console.ReadLine());
 
-        //Console.WriteLine("Does person1 make more money than person2: " + (annualSal1 > annualSal2));
 
-        //Console.ReadLine();
+            //Console.WriteLine("Have you ever had a DUI (true or false)?");
+            //bool DUI = Convert.ToBoolean(Console.ReadLine());
 
+            //Console.WriteLine("how many speeding tickets do you have?");
+            //int tickets = Convert.ToInt32(Console.ReadLine());
 
-        ///*********************** PRACTICE MATH OPERATORS***************************************************************
-        //Console.WriteLine("write a number here:");
-        //int mult1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Do you qualify?  " + (age>15 && (DUI == false) && tickets < 3) );
+            //Console.ReadLine();
 
-        //Console.WriteLine("your number x50 is: " + mult1 * 50);
 
-        //Console.WriteLine("your number + 25 is: " + (mult1 + 25));
+            //************************************BOOLEAN OPERATORS*************************************************************
 
-        //Console.WriteLine("your number / 12.5  is: " + mult1 / 12.5);
+            ////&& operator
+            //Console.WriteLine(true && false);
+            //Console.WriteLine(true && true);
+            //Console.WriteLine(false && false);
+            //Console.ReadLine();
 
-        //Console.WriteLine("true or false: your number is > 50: " + (mult1 > 50));
+            //// || operator
+            //Console.WriteLine(true || false);
+            //Console.WriteLine(true || true);
+            //Console.WriteLine(false || false);
+            //Console.ReadLine();
 
-        //Console.WriteLine("your number / 7  is: " + mult1 % 7);
+            ////== operator
+            //Console.WriteLine(true ==false);
+            //Console.WriteLine(true == true);
+            //Console.WriteLine(false == false);
+            //Console.ReadLine();
 
-        //Console.ReadLine();
+            //// != operator
+            //Console.WriteLine(true != false);
+            //Console.WriteLine(true != true);
+            //Console.WriteLine(false != false);
+            //Console.ReadLine();
 
+            //// Xor operator (if one is true, it's true... but not both)
+            //Console.WriteLine(true ^ false);
+            //Console.WriteLine(true ^ true);
+            //Console.WriteLine(false ^ false);
+            //Console.ReadLine();
 
-        // ******************************** PRACTICE WITH DATA TYPES*********************************
+            //***************************************PRACTICE INCOME COMPARISON ASSIGNMENT*************************************************
 
-        //int num1 = 20;
-        //int num2 = 5;
-        //int addTotal = num1 + num2;
-        //Console.WriteLine(addTotal);
-        //int subTotal = num1 - num2;
-        //Console.WriteLine(subTotal);
-        //int multTotal = num1 * num2;
-        //Console.WriteLine(multTotal);
-        //int divTotal = num1 / num2;
-        //Console.WriteLine(divTotal);
+            //Console.WriteLine("Anonymous Income Comparison Program" + "-------------------");
 
 
-        //Console.ReadLine();
+            //Console.WriteLine("person1");
+            //Console.WriteLine("What is hourly rate for person1?");
+            //int hourRate1 = Convert.ToInt32(Console.ReadLine());
 
-        //float num3 = 5.5f;
+            //Console.WriteLine("What is number of hours worked per week?");
+            //int hoursWorked1 = Convert.ToInt32(Console.ReadLine());
 
-        //float addtotal1 = num1 + num3;
-        //Console.WriteLine(addtotal1);
+            //Console.WriteLine("person2");
+            //Console.WriteLine("What is hourly rate for person2?");
+            //int hourRate2 = Convert.ToInt32(Console.ReadLine());
 
+            //Console.WriteLine("What is number of hours worked per week?");
+            //int hoursWorked2 = Convert.ToInt32(Console.ReadLine());
 
-        //int addtotal2 = num1 + Convert.ToInt32(num3);
-        //Console.WriteLine(addtotal2);
+            //int annualSal1 = (hourRate1 * hoursWorked1 * 52);
+            //int annualSal2 = (hourRate2 * hoursWorked2 * 52);
 
-        //Console.ReadLine();
+            //Console.WriteLine("Annual salary of person1: " + annualSal1);
 
-        //int total = 5 + 10;
-        //int otherTotal = 12 + 22;
-        //int combined = total + otherTotal;
-        //Console.WriteLine(combined);
-        //Console.ReadLine();
+            //Console.WriteLine("Annual salary of person2: " + annualSal2);
 
-        //int difference = 10 - 5;
-        //Console.WriteLine("ten minus five =" + difference.ToString());
-        //Console.ReadLine();
+            //Console.WriteLine("Does person1 make more money than person2: " + (annualSal1 > annualSal2));
 
-        //int remainder = 10 % 2;
-        //Console.WriteLine(remainder);
-        //Console.ReadLine();
+            //Console.ReadLine();
 
-        //    bool trueOrFalse = 12 > 5;
-        //    Console.WriteLine(trueOrFalse.ToString());
-        //    Console.ReadLine();
-        //    bool trueOrFalse2 = 12 < 5;
-        //    Console.WriteLine(trueOrFalse2.ToString());
-        //    Console.ReadLine();
 
-        //int roomTemperature = 70;
-        //int currentTemperature = 72;
+            ///*********************** PRACTICE MATH OPERATORS***************************************************************
+            //Console.WriteLine("write a number here:");
+            //int mult1 = Convert.ToInt32(Console.ReadLine());
 
-        //bool isWarm = currentTemperature > roomTemperature;
-        //Console.WriteLine(isWarm);
-        //Console.ReadLine();
+            //Console.WriteLine("your number x50 is: " + mult1 * 50);
 
-        //int roomTemperature = 70;
-        //int currentTemperature = 68;
+            //Console.WriteLine("your number + 25 is: " + (mult1 + 25));
 
-        //bool isWarm = currentTemperature >= roomTemperature;
-        //Console.WriteLine(isWarm);
-        //Console.ReadLine();
+            //Console.WriteLine("your number / 12.5  is: " + mult1 / 12.5);
 
-        //    int roomTemperature = 70;
-        //    int currentTemperature = 72;
+            //Console.WriteLine("true or false: your number is > 50: " + (mult1 > 50));
 
-        //    //bool isWarm = currentTemperature == roomTemperature;
-        //    bool isWarm = currentTemperature != roomTemperature;
-        //    Console.WriteLine(isWarm);
-        //    Console.ReadLine();
-    }
+            //Console.WriteLine("your number / 7  is: " + mult1 % 7);
+
+            //Console.ReadLine();
+
+
+            // ******************************** PRACTICE WITH DATA TYPES*********************************
+
+            //int num1 = 20;
+            //int num2 = 5;
+            //int addTotal = num1 + num2;
+            //Console.WriteLine(addTotal);
+            //int subTotal = num1 - num2;
+            //Console.WriteLine(subTotal);
+            //int multTotal = num1 * num2;
+            //Console.WriteLine(multTotal);
+            //int divTotal = num1 / num2;
+            //Console.WriteLine(divTotal);
+
+
+            //Console.ReadLine();
+
+            //float num3 = 5.5f;
+
+            //float addtotal1 = num1 + num3;
+            //Console.WriteLine(addtotal1);
+
+
+            //int addtotal2 = num1 + Convert.ToInt32(num3);
+            //Console.WriteLine(addtotal2);
+
+            //Console.ReadLine();
+
+            //int total = 5 + 10;
+            //int otherTotal = 12 + 22;
+            //int combined = total + otherTotal;
+            //Console.WriteLine(combined);
+            //Console.ReadLine();
+
+            //int difference = 10 - 5;
+            //Console.WriteLine("ten minus five =" + difference.ToString());
+            //Console.ReadLine();
+
+            //int remainder = 10 % 2;
+            //Console.WriteLine(remainder);
+            //Console.ReadLine();
+
+            //    bool trueOrFalse = 12 > 5;
+            //    Console.WriteLine(trueOrFalse.ToString());
+            //    Console.ReadLine();
+            //    bool trueOrFalse2 = 12 < 5;
+            //    Console.WriteLine(trueOrFalse2.ToString());
+            //    Console.ReadLine();
+
+            //int roomTemperature = 70;
+            //int currentTemperature = 72;
+
+            //bool isWarm = currentTemperature > roomTemperature;
+            //Console.WriteLine(isWarm);
+            //Console.ReadLine();
+
+            //int roomTemperature = 70;
+            //int currentTemperature = 68;
+
+            //bool isWarm = currentTemperature >= roomTemperature;
+            //Console.WriteLine(isWarm);
+            //Console.ReadLine();
+
+            //    int roomTemperature = 70;
+            //    int currentTemperature = 72;
+
+            //    //bool isWarm = currentTemperature == roomTemperature;
+            //    bool isWarm = currentTemperature != roomTemperature;
+            //    Console.WriteLine(isWarm);
+            //    Console.ReadLine();
+        }
     }
 }
