@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MathOperators\MathOperators\bin\Debug\MathOperators.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MathOperators\MathOperators\bin\Debug\MathOperators.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MathOperators\MathOperators\bin\Debug\MathOperators.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MathOperators\MathOperators\obj\Debug\MathOperators.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MathOperators\MathOperators\obj\Debug\MathOperators.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MathOperators\MathOperators\obj\Debug\MathOperators.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MathOperators\MathOperators\obj\Debug\MathOperators.pdb
