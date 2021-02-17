@@ -11,23 +11,53 @@ namespace MathOperators
         static void Main()
         {
 
-            Console.WriteLine("write a number here:");
-            int mult1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Anonymous Income Comparison Program" + "-------------------");
             
-            Console.WriteLine("your number x50 is: " + mult1 * 50);
 
-            Console.WriteLine("your number + 25 is: " + (mult1 + 25));
+            Console.WriteLine("person1");
+            Console.WriteLine("What is hourly rate for person1?");
+            int hourRate1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("your number / 12.5  is: " + mult1 / 12.5);
+            Console.WriteLine("What is number of hours worked per week?");
+            int hoursWorked1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("true or false: your number is > 50: " + (mult1 > 50));
+            Console.WriteLine("person2");
+            Console.WriteLine("What is hourly rate for person2?");
+            int hourRate2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("your number / 7  is: " + mult1 % 7);
+            Console.WriteLine("What is number of hours worked per week?");
+            int hoursWorked2 = Convert.ToInt32(Console.ReadLine());
 
+            int annualSal1 = (hourRate1 * hoursWorked1 * 52);
+            int annualSal2 = (hourRate2 * hoursWorked2 * 52);
+                
+            Console.WriteLine("Annual salary of person1: " + annualSal1);
+
+            Console.WriteLine("Annual salary of person2: " + annualSal2);
+
+            Console.WriteLine("Does person1 make more money than person2: " + (annualSal1 > annualSal2));
+           
             Console.ReadLine();
 
 
-           
+
+            //Console.WriteLine("write a number here:");
+            //int mult1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("your number x50 is: " + mult1 * 50);
+
+            //Console.WriteLine("your number + 25 is: " + (mult1 + 25));
+
+            //Console.WriteLine("your number / 12.5  is: " + mult1 / 12.5);
+
+            //Console.WriteLine("true or false: your number is > 50: " + (mult1 > 50));
+
+            //Console.WriteLine("your number / 7  is: " + mult1 % 7);
+
+            //Console.ReadLine();
+
+
+
             //int num1 = 20;
             //int num2 = 5;
             //int addTotal = num1 + num2;
