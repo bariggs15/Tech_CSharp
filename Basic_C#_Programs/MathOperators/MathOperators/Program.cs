@@ -11,36 +11,86 @@ namespace MathOperators
         static void Main()
         {
 
-            Console.WriteLine("Anonymous Income Comparison Program" + "-------------------");
-            
+            //*************************************BOOLEAN LOGIC ASSIGNMENT***********************************
 
-            Console.WriteLine("person1");
-            Console.WriteLine("What is hourly rate for person1?");
-            int hourRate1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("what is your age?");
+            int age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("What is number of hours worked per week?");
-            int hoursWorked1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("person2");
-            Console.WriteLine("What is hourly rate for person2?");
-            int hourRate2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Have you ever had a DUI (true or false)?");
+            bool DUI = Convert.ToBoolean(Console.ReadLine());
 
-            Console.WriteLine("What is number of hours worked per week?");
-            int hoursWorked2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("how many speeding tickets do you have?");
+            int tickets = Convert.ToInt32(Console.ReadLine());
 
-            int annualSal1 = (hourRate1 * hoursWorked1 * 52);
-            int annualSal2 = (hourRate2 * hoursWorked2 * 52);
-                
-            Console.WriteLine("Annual salary of person1: " + annualSal1);
-
-            Console.WriteLine("Annual salary of person2: " + annualSal2);
-
-            Console.WriteLine("Does person1 make more money than person2: " + (annualSal1 > annualSal2));
-           
+            Console.WriteLine("Do you qualify?  " + (age>15 && (DUI == false) && tickets < 3) );
             Console.ReadLine();
 
 
+            //************************************BOOLEAN OPERATORS*************************************************************
 
+            ////&& operator
+            //Console.WriteLine(true && false);
+            //Console.WriteLine(true && true);
+            //Console.WriteLine(false && false);
+            //Console.ReadLine();
+
+            //// || operator
+            //Console.WriteLine(true || false);
+            //Console.WriteLine(true || true);
+            //Console.WriteLine(false || false);
+            //Console.ReadLine();
+
+            ////== operator
+            //Console.WriteLine(true ==false);
+            //Console.WriteLine(true == true);
+            //Console.WriteLine(false == false);
+            //Console.ReadLine();
+
+            //// != operator
+            //Console.WriteLine(true != false);
+            //Console.WriteLine(true != true);
+            //Console.WriteLine(false != false);
+            //Console.ReadLine();
+
+            //// Xor operator (if one is true, it's true... but not both)
+            //Console.WriteLine(true ^ false);
+            //Console.WriteLine(true ^ true);
+            //Console.WriteLine(false ^ false);
+            //Console.ReadLine();
+
+            //***************************************PRACTICE INCOME COMPARISON ASSIGNMENT*************************************************
+
+            //Console.WriteLine("Anonymous Income Comparison Program" + "-------------------");
+
+
+            //Console.WriteLine("person1");
+            //Console.WriteLine("What is hourly rate for person1?");
+            //int hourRate1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("What is number of hours worked per week?");
+            //int hoursWorked1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("person2");
+            //Console.WriteLine("What is hourly rate for person2?");
+            //int hourRate2 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("What is number of hours worked per week?");
+            //int hoursWorked2 = Convert.ToInt32(Console.ReadLine());
+
+            //int annualSal1 = (hourRate1 * hoursWorked1 * 52);
+            //int annualSal2 = (hourRate2 * hoursWorked2 * 52);
+
+            //Console.WriteLine("Annual salary of person1: " + annualSal1);
+
+            //Console.WriteLine("Annual salary of person2: " + annualSal2);
+
+            //Console.WriteLine("Does person1 make more money than person2: " + (annualSal1 > annualSal2));
+
+            //Console.ReadLine();
+
+
+            ///*********************** PRACTICE MATH OPERATORS***************************************************************
             //Console.WriteLine("write a number here:");
             //int mult1 = Convert.ToInt32(Console.ReadLine());
 
@@ -57,6 +107,7 @@ namespace MathOperators
             //Console.ReadLine();
 
 
+            // ******************************** PRACTICE WITH DATA TYPES*********************************
 
             //int num1 = 20;
             //int num2 = 5;
