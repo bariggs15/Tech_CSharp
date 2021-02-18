@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DoWhileLoops\DoWhileLoops\obj\Debug\DoWhileLoops.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DoWhileLoops\DoWhileLoops\obj\Debug\DoWhileLoops.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DoWhileLoops\DoWhileLoops\bin\Debug\DoWhileLoops.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DoWhileLoops\DoWhileLoops\bin\Debug\DoWhileLoops.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DoWhileLoops\DoWhileLoops\bin\Debug\DoWhileLoops.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DoWhileLoops\DoWhileLoops\obj\Debug\DoWhileLoops.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DoWhileLoops\DoWhileLoops\obj\Debug\DoWhileLoops.pdb
