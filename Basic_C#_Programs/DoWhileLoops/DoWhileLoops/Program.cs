@@ -30,43 +30,43 @@ namespace DoWhileLoops
             }
             Console.ReadLine();
 
-            ////breakfast do/while loop
-            //Console.WriteLine("What did you have for breakfast?");
-            //string food = Console.ReadLine();
-            //bool protein = food == "eggs";
+            //breakfast do/while loop
+            Console.WriteLine("What did you have for breakfast?");
+            string food = Console.ReadLine();
+            bool protein = food == "eggs";
 
-            //do
-            //{
-            //    switch (food)
-            //    {
-            //        case "cereal":
-            //            Console.WriteLine("cereal has too much sugar, try again");
-            //            Console.WriteLine("what else can you eat?");
-            //            food = Console.ReadLine();
-            //            break;
-            //        case "oatmeal":
-            //            Console.WriteLine("oatmeal has too much starch, try again");
-            //            Console.WriteLine("what else can you eat?");
-            //            food = Console.ReadLine();
-            //            break;
-            //        case "poptarts":
-            //            Console.WriteLine("are you 5 years old, try again");
-            //            Console.WriteLine("what else can you eat?");
-            //            food = Console.ReadLine();
-            //            break;
-            //        default:
-            //            Console.WriteLine("try again");
-            //            Console.WriteLine("what else can you eat?");
-            //            food = Console.ReadLine();
-            //            break;
-            //        case "eggs":
-            //            Console.WriteLine("finally, some good protein in your body");
-            //            protein = true;
-            //            break;
-            //    }
-            //}
-            //while (!protein);
-            //Console.ReadLine();
+            do
+            {
+                switch (food)
+                {
+                    case "cereal":
+                        Console.WriteLine("cereal has too much sugar, try again");
+                        Console.WriteLine("what else can you eat?");
+                        food = Console.ReadLine();
+                        break;
+                    case "oatmeal":
+                        Console.WriteLine("oatmeal has too much starch, try again");
+                        Console.WriteLine("what else can you eat?");
+                        food = Console.ReadLine();
+                        break;
+                    case "poptarts":
+                        Console.WriteLine("are you 5 years old, try again");
+                        Console.WriteLine("what else can you eat?");
+                        food = Console.ReadLine();
+                        break;
+                    default:
+                        Console.WriteLine("try again");
+                        Console.WriteLine("what else can you eat?");
+                        food = Console.ReadLine();
+                        break;
+                    case "eggs":
+                        Console.WriteLine("finally, some good protein in your body");
+                        protein = true;
+                        break;
+                }
+            }
+            while (!protein);
+            Console.ReadLine();
 
 
         }
