@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Strings\Strings\bin\Debug\Strings.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Strings\Strings\bin\Debug\Strings.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Strings\Strings\bin\Debug\Strings.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Strings\Strings\obj\Debug\Strings.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Strings\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Strings\Strings\obj\Debug\Strings.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Strings\Strings\obj\Debug\Strings.pdb
