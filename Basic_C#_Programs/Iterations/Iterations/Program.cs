@@ -139,29 +139,52 @@ class Program
         //////////////PART 6
 
 
-        List<string> foods = new List<string>() { "Tomatoes", "Corn", "Tortilla", "Pico", "Guac", "Corn" };
+        //List<string> foods = new List<string>() { "Tomatoes", "Corn", "Tortilla", "Pico", "Guac", "Corn" };
+        //List<string> foodsCopy = new List<string>();
 
-
-        foreach (string food in foods)
-        {
-            Console.WriteLine(food);
-
-        }   
+        //foreach (var item in foods)
+        //{
+        //    foreach (var itemCopy in foodsCopy)
+        //    {
+        //        if (item == itemCopy)
+        //        {
+        //            Console.WriteLine("This is a duplicate: " + item);
+        //        }
+        //    }
+        //    foodsCopy.Add(item);
+        //}   
 
         
-         Console.ReadLine();
+        // Console.ReadLine();
 
-        for (int i = 0; i < foods.Count; i++)
-        {
-            if (i >= 1)
-                Console.WriteLine("This is a duplicate" + foods[i]);
-            Console.ReadLine();
-        }
 
-       
-           
-            
-           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //for (int i = 0; i < foods.Count; i++)
+        //{
+        //    if (i >= 1)
+        //        Console.WriteLine("This is a duplicate" + foods[i]);
+        //    Console.ReadLine();
+     
 
         //int tomatoes = 0, corn = 0, tortilla = 0, pico = 0, guac = 0;
             //if (food == "Tomatoes")
