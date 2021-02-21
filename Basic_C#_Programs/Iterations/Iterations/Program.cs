@@ -147,6 +147,8 @@ class Program
             Console.WriteLine(food);
 
         }   
+
+        
          Console.ReadLine();
 
         for (int i = 0; i < foods.Count; i++)
