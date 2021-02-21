@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 
 
-    class Program
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-
+        ///////////////PART 1
         //string[] family = { "Dad", "Mom", "Brother", "Sister" };
         //Console.WriteLine("What other family is there?");
         //string newFam = Console.ReadLine();
@@ -23,7 +23,11 @@ using System.Collections.Generic;
 
         //Console.ReadLine();
 
-        /////////////////////infinite loops
+
+
+
+
+        ///////////////////// PART 2 infinite loops
         //for (int i = 0; i < 100; i--)
         //    {
         //        Console.WriteLine("number : {0}", i);
@@ -36,6 +40,13 @@ using System.Collections.Generic;
         //}
         //Console.ReadLine();
 
+
+
+
+
+
+
+        ////////////////////////// PART 3
 
         //int[] golfScore = { 65, 12, 32, 14, 80, 62, 100, 30 };
 
@@ -62,29 +73,181 @@ using System.Collections.Generic;
         //Console.ReadLine();
 
 
-        List<string> cars = new List<string>() { "Taurus", "Corolla", "Tesla", "4x4", "Charger" };
-        Console.WriteLine("what's one of your favorite cars?");
-        string carGuess = Console.ReadLine();
 
-        for (int i = 0; i < cars.Count; i++)
-        {
-            if (carGuess == cars[i])
-            {
-                Console.WriteLine(cars[i] + " is on our list");
-            }
-            else
-            {
-                Console.WriteLine("your car isn't on our list");
 
-            }
-        }
-        Console.ReadLine();
 
+        //////////////////PART 4
+
+        //List<string> cars = new List<string>() { "Taurus", "Corolla", "Tesla", "4x4", "Charger" };
+        //Console.WriteLine("what's one of your favorite cars?");
+        //string carGuess = Console.ReadLine();
+        //bool cars2 = false;
+
+        //for (int i = 0; i < cars.Count; i++)
+        //{
+        //    if (carGuess == cars[i])
+        //    {
+        //        cars2 = true;
+        //        Console.WriteLine("your car is number " + i + " on our list");
+        //    }
+        //}
+        //if (cars2 == false)
+        //{
+
+        //    Console.WriteLine("your car isn't on our list");
+
+        //}
+        //Console.ReadLine();
+
+
+
+
+
+
+
+        ///////////////////PART 5
 
         //List<string> cars1 = new List<string>() { "Taurus", "Corolla", "Tesla", "4x4", "Charger", "Corolla" };
-        //Console.WriteLine(cars1[i]);
-        //Console.WriteLine("select a car in the list");
+       
+        //foreach (string car in cars1)
+        //{
+        //    Console.WriteLine(car);
+        //}
         //Console.ReadLine();
+
+        //Console.WriteLine("select a car in the list");
+        //string userInput = Console.ReadLine();
+        //bool notInList = true;
+
+        //for (int i = 0; i < cars1.Count; i++)
+
+        //{
+        //    if (userInput == cars1[i]) 
+        //    {
+        //        notInList = false;
+        //        Console.WriteLine(i);
+        //    }
+        //}
+        //if (notInList == true)
+        //{
+        //    Console.WriteLine("NOT in list");
+        //}
+        //Console.ReadLine();
+
+
+
+        //////////////PART 6
+
+
+        List<string> foods = new List<string>() { "Tomatoes", "Corn", "Tortilla", "Pico", "Guac", "Corn" };
+
+
+        foreach (string food in foods)
+        {
+            Console.WriteLine(food);
+
+        }   
+         Console.ReadLine();
+
+        for (int i = 0; i < foods.Count; i++)
+        {
+            if (i >= 1)
+                Console.WriteLine("This is a duplicate" + foods[i]);
+            Console.ReadLine();
+        }
+
+       
+           
+            
+           
+
+        //int tomatoes = 0, corn = 0, tortilla = 0, pico = 0, guac = 0;
+            //if (food == "Tomatoes")
+            //    tomatoes++;
+            //else if (food == "Corn")
+            //    corn++;
+            //else if (food == "Tortilla")
+            //    tortilla++;
+            //else if (food == "Pico")
+            //    pico++;
+            //else if (food == "Guac")
+            //    guac++;
+
+
+        //for (int i = 0; i < foods.Count; i++)
+        //{
+        //    if (foods[i] == foods[i])
+        //    {
+        //        duplicate = true;
+        //        Console.WriteLine(foods[i] + " is a duplicate in the list");
+        //    }
+         
+        //}
+        //if (duplicate == false) 
+        //{
+        //    Console.WriteLine("only once in list");
+        //}
+      
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+        /// List<int> passingScores = new List<int>();
+
+        //    foreach (int score in testScores)
+        //    {
+        //        if (score > 85)
+        //        {
+        //            passingScores.Add(score);
+        //        }
+        //    }
+        //    Console.WriteLine(passingScores.Count); 
+        //    Console.ReadLine();
+
+
+        //Console.WriteLine("select a car in the list");
+        //string userInput = Console.ReadLine();
+        //bool notInList = true;
+
+        //for (int i = 0; i < cars1.Count; i++)
+
+        //{
+        //    if (userInput == cars1[i])
+        //    {
+        //        notInList = false;
+        //        Console.WriteLine(i);
+        //    }
+        //}
+        //if (notInList == true)
+        //{
+        //    Console.WriteLine("NOT in list");
+        //}
+        //Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -114,20 +277,6 @@ using System.Collections.Generic;
         //    }
         //    Console.WriteLine(passingScores.Count);
         //    Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -205,7 +354,7 @@ using System.Collections.Generic;
         //            passingScores.Add(score);
         //        }
         //    }
-        //    Console.WriteLine(passingScores.Count);
+        //    Console.WriteLine(passingScores.Count); 
         //    Console.ReadLine();
     }
 
