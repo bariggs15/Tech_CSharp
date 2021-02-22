@@ -11,7 +11,37 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             Deck deck = new Deck();
-            //deck.Cards = new List<Card>();
+            deck = Shuffle(deck);
+
+
+            foreach (Card card in deck.Cards)
+            {
+                Console.WriteLine(card.face + " of " + card.suit);
+            
+            }
+            Console.WriteLine(deck.Cards.Count);            
+            Console.ReadLine();
+        }
+
+        public static Deck Shuffle(Deck deck)
+        {
+            List<Card> TempList = new List<Card>();
+            Random random = new Random();
+
+            while(deck.Cards.Count > 0)
+            {
+                int randomIndex = random.Next(0, deck.Cards.Count);
+                TempList.Add(deck.Cards[randomIndex]);
+                deck.Cards.RemoveAt(randomIndex);
+            }
+            deck.Cards = TempList;
+            return deck;
+        }
+    }
+}
+
+
+//deck.Cards = new List<Card>();
 
 
 
@@ -22,7 +52,3 @@ namespace TwentyOne
             //deck.Cards.Add(cardOne);
 
             //Console.WriteLine(cardOne.face + " of " + cardOne.suit);
-            Console.ReadLine();
-        }
-    }
-}
