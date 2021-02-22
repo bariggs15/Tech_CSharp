@@ -29,7 +29,7 @@ namespace ClassMathOperators
             Console.WriteLine("Your age doubled is: " + result1 + "\n Your age minus 5 years is: " + result2 + "\n Half of your age is: " + result3);
             Console.ReadLine();
 
-           
+
 
 
             //Console.WriteLine("What is your hourly wages");
@@ -41,6 +41,14 @@ namespace ClassMathOperators
 
             //Console.WriteLine("Your weekly wages are: " + result4.ToString("#.##"));
             //Console.ReadLine();
+
+
+            //public int Double1(decimal x)
+            //{
+            //    decimal result = x * 40;
+            //    return Convert.ToInt32(result);
+            //}
+
         }
     }
 }
