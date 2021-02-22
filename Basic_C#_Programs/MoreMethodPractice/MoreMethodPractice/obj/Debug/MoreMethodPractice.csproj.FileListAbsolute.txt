@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MoreMethodPractice\MoreMethodPractice\bin\Debug\MoreMethodPractice.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MoreMethodPractice\MoreMethodPractice\bin\Debug\MoreMethodPractice.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MoreMethodPractice\MoreMethodPractice\bin\Debug\MoreMethodPractice.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MoreMethodPractice\MoreMethodPractice\obj\Debug\MoreMethodPractice.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MoreMethodPractice\MoreMethodPractice\obj\Debug\MoreMethodPractice.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MoreMethodPractice\MoreMethodPractice\obj\Debug\MoreMethodPractice.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\MoreMethodPractice\MoreMethodPractice\obj\Debug\MoreMethodPractice.pdb
