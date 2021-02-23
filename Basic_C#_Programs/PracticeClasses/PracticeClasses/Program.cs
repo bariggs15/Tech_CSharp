@@ -17,6 +17,7 @@ namespace PracticeClasses
 
             decimal wage2 = Convert.ToDecimal(wage1);
 
+            //Console.WriteLine("Enter a second number");
             string wage3 = Console.ReadLine();
 
             Wages wage = new Wages();
