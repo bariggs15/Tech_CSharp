@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\VoidMethods\VoidMethods\bin\Debug\VoidMethods.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\VoidMethods\VoidMethods\bin\Debug\VoidMethods.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\VoidMethods\VoidMethods\bin\Debug\VoidMethods.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\VoidMethods\VoidMethods\obj\Debug\VoidMethods.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\VoidMethods\VoidMethods\obj\Debug\VoidMethods.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\VoidMethods\VoidMethods\obj\Debug\VoidMethods.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\VoidMethods\VoidMethods\obj\Debug\VoidMethods.pdb
