@@ -10,17 +10,23 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-
-            Deck deck = new Deck();
-            deck.Shuffle(3);
-
-            foreach(Card card in deck.Cards)
-            {
-                Console.WriteLine(card.face + " of " + card.suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
+            //Game game = new Game();
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Austin", "Bob", "Joe" };
+            game.ListPlayers();
+            game.Play();
             Console.ReadLine();
-        }
+
+            //Deck deck = new Deck();
+            //deck.Shuffle(3);
+
+        //    foreach(Card card in deck.Cards)
+        //    {
+        //        Console.WriteLine(card.face + " of " + card.suit);
+        //    }
+        //    Console.WriteLine(deck.Cards.Count);
+        //    Console.ReadLine();
+        //
         //    Deck deck = new Deck();
         //    //int timesShuffled = 0;
         //    //deck.Shuffle(/*deck: deck, out timesShuffled, times: */3);
@@ -46,7 +52,7 @@ namespace TwentyOne
         //        deck = Shuffle(deck);
         //    }
         //    return deck;
-        //}
+        }
     }
 }
 
