@@ -14,16 +14,18 @@ namespace VoidMethod2
             Console.WriteLine("your number divided by two:" + result);
         }
            
-       public static double div2double(double x)
+       public void div2int(out int x)
         {
-            if (x % 2 == 0)
-            {
-                return x / 2;
-            }
-            else
-            {
-                return Convert.ToDouble(null); 
-            }
+            x = 5;
+            
         }
     }
 }
+            //if (x % 2 == 0)
+            //{
+            //    return x / 2;
+            //}
+            //else
+            //{
+            //    return Convert.ToDouble(null); 
+            //}

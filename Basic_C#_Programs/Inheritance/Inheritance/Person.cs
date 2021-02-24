@@ -8,19 +8,27 @@ namespace Inheritance
 {
     public class Person
     {
-        public void SayName(string x, string y)
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public void SayName()
         {
-            string result = x + " " + y;
-            Console.WriteLine("Name: " + result);
-
+            Console.WriteLine("Name: " + this.FirstName + " " + this.LastName);
         }
+
+
+    }
+}
+
+
+
+//*public string fname { get; set; }*/
+        //public string lname { get; set; }
+        //public void SayName()
+ //string result = x + " " + y;
+            //Console.WriteLine("Name: " + result);
         //public string FullName(string x, string y)
         //{
         //    string result = x + " " +  y;
         //    return result; 
 
         //}
-
-       
-    }
-}
