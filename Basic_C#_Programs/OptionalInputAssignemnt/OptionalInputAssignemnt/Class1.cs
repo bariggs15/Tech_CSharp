@@ -8,9 +8,10 @@ namespace OptionalInputAssignemnt
 {
     public class Num1
     {
-        public int Add1(int x, int y)
+        public int Add1(int x, int y = 0)
         {
             return x + y;
         }
+        
     }
 }
