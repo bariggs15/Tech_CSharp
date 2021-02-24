@@ -10,8 +10,9 @@ namespace VoidMethods
     {
         public void Squared(int x, int y)
         {
-            int result = x ^ 2; 
+            double result = Math.Pow(x, 2); 
             Console.WriteLine(result);
+            Console.WriteLine(y);
             
         }
     }
