@@ -11,9 +11,9 @@ namespace Abstract
         public string firstName { get; set; }
         public string lastName { get; set; }
 
-        public void SayName()
-        {
-            Console.WriteLine("Name: " + this.firstName + this.lastName);
-        }
+        public abstract void SayName();
+       
+        //    Console.WriteLine("Name: " + this.firstName + this.lastName);
+
     }
 }

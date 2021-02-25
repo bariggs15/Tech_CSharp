@@ -8,7 +8,10 @@ namespace Abstract
 {
     public class Employee : Person
     {
-        
+        public override void SayName()
+        {
+            Console.WriteLine("Name: " + this.firstName + this.lastName);
+        }
 
     }
 }
