@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Abstract
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         public override void SayName()
         {
             Console.WriteLine("Name: " + this.firstName + this.lastName);
+        }
+
+        public void Quit(Employee employee)
+        {
+            throw new NotImplementedException();
         }
 
     }

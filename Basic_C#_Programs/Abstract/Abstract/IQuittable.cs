@@ -8,9 +8,7 @@ namespace Abstract
 {
     interface IQuittable
     {
-        void Quit()
-        {
-
-        }
+        void Quit(Employee employee);
+        
     }
 }
