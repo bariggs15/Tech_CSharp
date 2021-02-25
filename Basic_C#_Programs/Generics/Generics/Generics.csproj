@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB562314-6A82-40B3-9D61-78C9C23F5B7D}</ProjectGuid>
+    <ProjectGuid>{FCDF7798-13B7-4821-A8EF-72B5D7786AD9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Overload</RootNamespace>
-    <AssemblyName>Overload</AssemblyName>
+    <RootNamespace>Generics</RootNamespace>
+    <AssemblyName>Generics</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

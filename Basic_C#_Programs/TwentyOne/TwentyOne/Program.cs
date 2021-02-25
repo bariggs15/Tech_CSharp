@@ -10,35 +10,44 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Game game = new TwentyOneGame();
-            /*TwentyOneGame game = new TwentyOneGame(*/);
-            game.Players = new List<Player>();
-            //game.Players = new List<Player>() { "Austin", "Bob", "Joe" };
-            //game.ListPlayers();
-            ////game.Play();
-            //Console.ReadLine();
             
-            Player player = new Player();
-            player.Name = "Austin";
-            game = game + player;
-            game = ga
+            Deck deck = new Deck();
+            deck.Shuffle(3);
+
+            foreach (Card card in deck.Cards)
+            {
+                Console.WriteLine(card.face + " of " + card.suit);
+            }
+            Console.WriteLine(deck.Cards.Count);
+            Console.ReadLine();
+
+
+     
         }
     }
 }
+
+ //Game game = new TwentyOneGame();
+            ///*TwentyOneGame game = new TwentyOneGame(*/);
+            //game.Players = new List<Player>();
+            ////game.Players = new List<Player>() { "Austin", "Bob", "Joe" };
+            ////game.ListPlayers();
+            //////game.Play();
+            ////Console.ReadLine();
+
+            //Player player = new Player();
+            //player.Name = "Austin";
+            //game = game + player;
+            //game = game - player;
+        
+
+
 
 ////Game game = new Game();
 //List<Game> games = new List<Game>();
 //Game game = new TwentyOneGame();
 //games.Add(game);
-//Deck deck = new Deck();
-//deck.Shuffle(3);
 
-//    foreach(Card card in deck.Cards)
-//    {
-//        Console.WriteLine(card.face + " of " + card.suit);
-//    }
-//    Console.WriteLine(deck.Cards.Count);
-//    Console.ReadLine();
 //
 //    Deck deck = new Deck();
 //    //int timesShuffled = 0;

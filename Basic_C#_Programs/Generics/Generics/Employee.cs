@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Overload
+namespace Generics
 {
-    class Program
+    public class Employee<T>
     {
-        static void Main(string[] args)
-        {
-        }
+        public T things { get; set; }
     }
 }
