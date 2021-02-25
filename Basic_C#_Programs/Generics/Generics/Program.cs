@@ -11,13 +11,24 @@ namespace Generics
     {
         static void Main(string[] args)
         {
-            Employee<string> employee = new Employee<string>(); 
+            Employee<string> employee = new Employee<string>();
             Employee<int> employee1 = new Employee<int>();
 
-            employee.things =  { "Bill", "Bob", "Joe" };
-            employee1.things = { 54323452, 8979, 262626 } ;
+            employee.things = new List<string> { "Bill", "Bob", "Joe" };
+            employee1.things = new List<int> { 54323452, 8979, 262626 };
+
+
+            foreach (int num1 in employee1.things)
+            {
+                
+                Console.WriteLine("List is: {0}", num1 );
+                Console.ReadLine();
+            }
         }
 
-        for 
+        
+        
+    
+      
     }
 }

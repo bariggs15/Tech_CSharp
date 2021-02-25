@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Generics\Generics\obj\Debug\Generics.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Generics\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Generics\Generics\bin\Debug\Generics.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Generics\Generics\bin\Debug\Generics.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Generics\Generics\bin\Debug\Generics.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Generics\Generics\obj\Debug\Generics.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Generics\Generics\obj\Debug\Generics.pdb

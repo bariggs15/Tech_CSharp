@@ -8,6 +8,6 @@ namespace Generics
 {
     public class Employee<T>
     {
-        public T things { get; set; }
+        public List<T> things { get; set; }
     }
 }
