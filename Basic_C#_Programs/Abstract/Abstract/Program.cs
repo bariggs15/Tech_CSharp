@@ -11,6 +11,11 @@ namespace Abstract
         static void Main(string[] args)
         {
             Employee employee1 = new Employee();
+            IQuittable quit = new Employee();
+
+            quit.Quit(employee1);
+
+
             employee1.firstName = "Sample";
             employee1.lastName = "Student";
             employee1.SayName();
