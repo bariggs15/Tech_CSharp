@@ -11,16 +11,13 @@ namespace TwentyOne
         public Deck()
         {
             Cards = new List<Card>();
-            List<string> suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
-            List<string> faces = new List<string>() { "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace" };
-
-            foreach (string face in faces)
+            for (int i = 0; i<13; i++)
             {
-                foreach (string suit in suits)
+                for (int j = 0; j < 4; j++)
                 {
                     Card card = new Card();
-                    card.suit = suit;
-                    card.face = face;
+                    card.face = (Face)i;
+                    card.suit = (Suit)j;
                     Cards.Add(card);
                 }
             }
@@ -46,7 +43,21 @@ namespace TwentyOne
                 Cards = TempList;
             }
         }
-        
+
+
+        //List<string> suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
+        //List<string> faces = new List<string>() { "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace" };
+
+        //foreach (string face in faces)
+        //{
+        //    foreach (string suit in suits)
+        //    {
+        //        Card card = new Card();
+        //        card.suit = suit;
+        //        card.face = face;
+        //        Cards.Add(card);
+        //    }
+        //}
 
 
 
