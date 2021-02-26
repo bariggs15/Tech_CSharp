@@ -21,9 +21,10 @@ namespace Generics
             foreach (int num1 in employee1.things)
             {
                 
-                Console.WriteLine("List is: {0}", num1 );
-                Console.ReadLine();
+                Console.WriteLine(num1);
+                
             }
+            Console.ReadLine();
         }
 
         
