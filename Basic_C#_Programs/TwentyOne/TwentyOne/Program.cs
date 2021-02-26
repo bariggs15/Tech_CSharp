@@ -10,16 +10,9 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            //Card card = new Card();
-            //card.suit = Suit.Clubs;
-
-            Card card1 = new Card();
-            Card card2 = card1;
-            card1.face = Face.Eight;
-            card2.face = Face.King;
-
-            Console.WriteLine(card1.face);
-            //Deck deck = new Deck();
+           
+            Deck deck = new Deck();
+                  
             //deck.Shuffle(3);
 
             //foreach (Card card in deck.Cards)
@@ -37,19 +30,43 @@ namespace TwentyOne
     }
 }
 
- //Game game = new TwentyOneGame();
-            ///*TwentyOneGame game = new TwentyOneGame(*/);
-            //game.Players = new List<Player>();
-            ////game.Players = new List<Player>() { "Austin", "Bob", "Joe" };
-            ////game.ListPlayers();
-            //////game.Play();
-            ////Console.ReadLine();
+////int count = deck.Cards.Count(x => x.face == Face.Ace);
+////Console.WriteLine(count);
 
-            //Player player = new Player();
-            //player.Name = "Austin";
-            //game = game + player;
-            //game = game - player;
-        
+////List<Card> newList = deck.Cards.Where(x => x.face == Face.King).ToList();
+
+//List<int> numberList = new List<int>() { 1, 2, 45, 6, 57, 23423, };
+////int sum = numberList.Sum(x => x + 5);
+////int sum = numberList.Max();
+//int sum = numberList.Where(x=> x < 50).Sum();
+
+
+//Console.WriteLine(sum);
+
+
+
+//Card card = new Card();
+//card.suit = Suit.Clubs;
+
+//Card card1 = new Card();
+//Card card2 = card1;
+//card1.face = Face.Eight;
+//card2.face = Face.King;
+
+//Console.WriteLine(card1.face);
+//Game game = new TwentyOneGame();
+///*TwentyOneGame game = new TwentyOneGame(*/);
+//game.Players = new List<Player>();
+////game.Players = new List<Player>() { "Austin", "Bob", "Joe" };
+////game.ListPlayers();
+//////game.Play();
+////Console.ReadLine();
+
+//Player player = new Player();
+//player.Name = "Austin";
+//game = game + player;
+//game = game - player;
+
 
 
 
