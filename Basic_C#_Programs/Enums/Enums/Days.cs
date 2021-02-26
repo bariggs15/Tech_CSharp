@@ -10,5 +10,15 @@ namespace Enums
     {
         public string DaysOfWeek { get; set; }
     }
-    enum 
+    public enum DaysOfWeek
+    {
+        Monday ,
+        Tuesday  ,
+        Wednesday ,
+        Thursday  ,
+        Friday ,
+        Saturday  ,
+        Sunday
+    }
+
 }

@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Enums\Enums\bin\Debug\Enums.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Enums\Enums\bin\Debug\Enums.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Enums\Enums\bin\Debug\Enums.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Enums\Enums\obj\Debug\Enums.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Enums\Enums\obj\Debug\Enums.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Enums\Enums\obj\Debug\Enums.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Enums\Enums\obj\Debug\Enums.pdb
