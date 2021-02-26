@@ -10,25 +10,30 @@ namespace Lambda
     {
         static void Main(string[] args)
         {
-            List<string> employees = new List<string>() { "Joe Austin", "Joe Bill" , "Z Candace", "Y Don", " D Elizabeth", "E Fred", "H Georgia", "Q Harry", "N Immogene", "P Jake" }
+            List<string> employees = new List<string>() { "Joe Austin" ,  "Joe Bill", "Z Candace", "Y Don", " D Elizabeth", "E Fred", "H Georgia", "Q Harry", "N Immogene", "P Jake" };
+
+
+            //int counter = 0;
+            //foreach (string employee in employees)
+            //{
+            //    if (employee.StartsWith("Joe")) 
+            //    {
+            //        counter++;
+            //        Console.WriteLine(employee);
+            //    }
+            //}
+
+            List<string> newList = employees.Where(x => x.StartsWith("Joe")).ToList();
             
-            foreach (string employee in )
+            Console.WriteLine(employees);
+
+            int numID = employees.Where(x => x > 5).ToList();
+            Console.ReadLine();
 
 
 
 
-            ////int count = deck.Cards.Count(x => x.face == Face.Ace);
-            ////Console.WriteLine(count);
-
-            ////List<Card> newList = deck.Cards.Where(x => x.face == Face.King).ToList();
-
-            //List<int> numberList = new List<int>() { 1, 2, 45, 6, 57, 23423, };
-            ////int sum = numberList.Sum(x => x + 5);
-            ////int sum = numberList.Max();
-            //int sum = numberList.Where(x=> x < 50).Sum();
-
-
-            //Console.WriteLine(sum);
+            
         }
     }
 }
