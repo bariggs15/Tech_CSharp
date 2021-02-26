@@ -12,19 +12,26 @@ namespace TwentyOne
         {
             //Card card = new Card();
             //card.suit = Suit.Clubs;
-            Deck deck = new Deck();
-            deck.Shuffle(3);
 
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.face + " of " + card.suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
+            Card card1 = new Card();
+            Card card2 = card1;
+            card1.face = Face.Eight;
+            card2.face = Face.King;
+
+            Console.WriteLine(card1.face);
+            //Deck deck = new Deck();
+            //deck.Shuffle(3);
+
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.face + " of " + card.suit);
+            //}
+            //Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
 
 
-     
-        
+
+
 
         }
     }
