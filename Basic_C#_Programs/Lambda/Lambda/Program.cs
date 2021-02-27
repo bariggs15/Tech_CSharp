@@ -10,25 +10,45 @@ namespace Lambda
     {
         static void Main(string[] args)
         {
-            List<string> employees = new List<string>() { "Joe Austin" ,  "Joe Bill", "Z Candace", "Y Don", " D Elizabeth", "E Fred", "H Georgia", "Q Harry", "N Immogene", "P Jake" };
-
-
-            //int counter = 0;
-            //foreach (string employee in employees)
-            //{
-            //    if (employee.StartsWith("Joe")) 
-            //    {
-            //        counter++;
-            //        Console.WriteLine(employee);
-            //    }
-            //}
-
-            List<string> newList = employees.Where(x => x.StartsWith("Joe")).ToList();
+            List<Employees> allEmployees = new List<Employees>();
             
-            Console.WriteLine(employees);
+            //List<Employees> employees = new List<Employees>() { "Joe Austin" ,  "Joe Bill", "Z Candace", "Y Don", " D Elizabeth", "E Fred", "H Georgia", "Q Harry", "N Immogene", "P Jake" };
+            allEmployees.Add(new Employees() { fname = "Joe", lname = "Austin", numID = 1 });
+            allEmployees.Add(new Employees() { fname = "Joe", lname = "Bill", numID = 2 });
+            allEmployees.Add(new Employees() { fname = "Z", lname = "Elizabeth", numID = 3 });
+            allEmployees.Add(new Employees() { fname = "Y", lname = "Ruthy", numID = 4 });
+            allEmployees.Add(new Employees() { fname = "A", lname = "Jim", numID = 5 });
+            allEmployees.Add(new Employees() { fname = "Q", lname = "Paul", numID = 6 });
+            allEmployees.Add(new Employees() { fname = "W", lname = "Susie", numID = 7 });
+            allEmployees.Add(new Employees() { fname = "R", lname = "Fred", numID = 8 });
+            allEmployees.Add(new Employees() { fname = "B", lname = "Georgoeee", numID = 9 });
+            allEmployees.Add(new Employees() { fname = "H", lname = "Alfie", numID = 10 });
 
-            int numID = employees.Where(x => x > 5).ToList();
+            List<Employees> joeList = new List<Employees>();
+            foreach (Employees employeesObject in allEmployees)
+            {
+                if (employeesObject.fname == "Joe")
+                {
+                    joeList.Add(employeesObject);
+
+                }
+                
+            }
+            
+
+            List<Employees> joeList1 = allEmployees.Where(x => x.fname == "Joe").ToList();
+            
+            Console.WriteLine();
+
+            List<Employees> numID5 = allEmployees.Where(x => x.numID > 5).ToList();
+            foreach (Employees num5 in numID5)
+            {
+                Console.WriteLine(num5.lname);
+            }
             Console.ReadLine();
+
+            
+           
 
 
 

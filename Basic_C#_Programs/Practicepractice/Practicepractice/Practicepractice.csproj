@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1236EA77-C99E-4181-9938-843B1CBBAF0D}</ProjectGuid>
+    <ProjectGuid>{301CF57F-ED25-413D-9298-467DCA0B0F59}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lambda</RootNamespace>
-    <AssemblyName>Lambda</AssemblyName>
+    <RootNamespace>Practicepractice</RootNamespace>
+    <AssemblyName>Practicepractice</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employees.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -7,21 +7,43 @@ using System.Threading.Tasks;
 namespace TwentyOne
 {
     public class Player    
-        {
-        public List<Card> Hand { get; set; }
-        public int Balance { get; set; }
-        public string Name{ get; set; }
-        public bool isActivelyPlaying { get; set; }
+    {
+            public Player (string name, int beginningBalance)
+            {
+                Hand = new List<Card>();
+                Balance = beginningBalance;
+                Name = name;
+            }
 
-        //public static Game operator+ (Game game, Player player)
-        //{
-        //    game.Players.Add(player);
-        //    return game;
-        //}
-        //public static Game operator- (Game game, Player player)
-        //{
-        //    game.Players.Remove(player);
-        //    return game;
-        //}
+            public List<Card> Hand { get; set; }
+            public int Balance { get; set; }
+            public string Name{ get; set; }
+            public bool isActivelyPlaying { get; set; }
+            public bool Stay { get; set; }
+
+        public bool Bet(int amount)
+        {
+            if (Balance = amount < 0)
+            {
+                Console.WriteLine("you don't have enough");
+                return false;
+            }
+            else
+            {
+                Balance = Balance - amount;
+                return true;
+            }
+        }
+
+        public static Game operator +(Game game, Player player)
+        {
+            game.Players.Add(player);
+            return game;
+        }
+        public static Game operator -(Game game, Player player)
+        {
+            game.Players.Remove(player);
+            return game;
+        }
     }
 }
