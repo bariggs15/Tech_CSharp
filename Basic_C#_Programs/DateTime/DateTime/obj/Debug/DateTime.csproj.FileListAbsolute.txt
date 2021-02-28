@@ -1,7 +1,0 @@
-C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateTime\DateTime\bin\Debug\DateTime.exe.config
-C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateTime\DateTime\bin\Debug\DateTime.exe
-C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateTime\DateTime\bin\Debug\DateTime.pdb
-C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateTime\DateTime\obj\Debug\DateTime.csprojAssemblyReference.cache
-C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateTime\DateTime\obj\Debug\DateTime.csproj.CoreCompileInputs.cache
-C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateTime\DateTime\obj\Debug\DateTime.exe
-C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateTime\DateTime\obj\Debug\DateTime.pdb
