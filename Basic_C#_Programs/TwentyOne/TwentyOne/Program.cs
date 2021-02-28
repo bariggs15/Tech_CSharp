@@ -11,12 +11,11 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            // for practice with file i/o
-            string text = "here is some text";
-            File.WriteAllText(@"C:\Users\arigg\Logs\log.text", text);
+            //DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);
+            //DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 32, 45);
 
-
-
+            //TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
+            
 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. What is your name?");
             string playerName = Console.ReadLine();
