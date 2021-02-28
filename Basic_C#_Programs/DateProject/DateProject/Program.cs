@@ -10,12 +10,20 @@ namespace DateProject
     {
         static void Main(string[] args)
         {
-            DateTime date = new DateTime();
+            DateTime date = DateTime.Now;
 
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine(date);
 
             Console.WriteLine("type a number: ");
-            int num1 = Convert.ToInt32(Console.ReadLine());
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(date.AddHours(num1));
+
+            //Console.WriteLine("the current time plus your input is {0}", Convert.ToDateTime(DateTime.Now.Hour + num1));
+            //DateTime addedTime = Convert.ToDateTime(Console.ReadLine());
+
+            //Console.WriteLine(addedTime);
+            Console.ReadLine();
         }
     }
 }

@@ -14,6 +14,14 @@ namespace FileIO
             Console.WriteLine("type a number");
             int num1 = Convert.ToInt32(Console.ReadLine());
             File.WriteAllText(@"C:\Users\arigg\Logs\log.txt", Convert.ToString(num1));
+            using (StreamWriter file = new StreamWriter(@"C:\Users\arigg\Logs\log.txt", true))
+            {
+                file.WriteLine(num1);
+
+            }
+            Console.ReadLine();
+            
+            
         }
     }
 }

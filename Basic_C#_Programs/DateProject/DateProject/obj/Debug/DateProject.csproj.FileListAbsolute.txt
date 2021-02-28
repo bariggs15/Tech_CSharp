@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateProject\DateProject\bin\Debug\DateProject.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateProject\DateProject\bin\Debug\DateProject.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateProject\DateProject\bin\Debug\DateProject.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateProject\DateProject\obj\Debug\DateProject.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateProject\DateProject\obj\Debug\DateProject.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateProject\DateProject\obj\Debug\DateProject.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\DateProject\DateProject\obj\Debug\DateProject.pdb
