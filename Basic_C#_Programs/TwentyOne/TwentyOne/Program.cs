@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -10,6 +11,12 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            // for practice with file i/o
+            string text = "here is some text";
+            File.WriteAllText(@"C:\Users\arigg\Logs\log.text", text);
+
+
+
 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. What is your name?");
             string playerName = Console.ReadLine();
@@ -20,16 +27,16 @@ namespace TwentyOne
 
             if (answer == "yes" || answer == "yeah" || answer == "y")
             {
-                Player player = new player(playerName, bank);
+                Player player = new Player(playerName, bank);
             
                 Game game = new TwentyOneGame();
-                game += Player();
-                Player.IsActivelyPlaying = true;
-                while (Player.isActivelyPlaying && Player.balance > 0)
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
                 {
                     game.Play();
                 }
-                game -= Player;
+                game -= player;
                 Console.WriteLine("Thanks for playing");
             }
             Console.WriteLine("Feel free to look around casino. Thanks for playing");

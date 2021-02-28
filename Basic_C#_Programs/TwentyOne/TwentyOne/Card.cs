@@ -10,7 +10,11 @@ namespace TwentyOne
     {
         public Suit suit { get; set; }
         public Face face { get; set; }
-        
+
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", face, suit);
+        }
     }        
 
 
