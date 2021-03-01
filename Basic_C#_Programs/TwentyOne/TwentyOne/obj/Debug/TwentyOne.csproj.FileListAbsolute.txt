@@ -1,1 +1,2 @@
 C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csprojAssemblyReference.cache

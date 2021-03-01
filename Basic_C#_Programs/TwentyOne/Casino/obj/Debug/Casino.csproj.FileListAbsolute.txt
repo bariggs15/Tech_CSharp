@@ -1,0 +1,2 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\TwentyOne\Casino\obj\Debug\Casino.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\TwentyOne\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
