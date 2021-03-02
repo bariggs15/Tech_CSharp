@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE63A391-0F59-47C8-976A-2938D24B9DC3}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Casino</RootNamespace>
-    <AssemblyName>Casino</AssemblyName>
+    <ProjectGuid>{6492D32B-D5DD-43FC-A2A9-223342E91815}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ExceptionAssignment</RootNamespace>
+    <AssemblyName>ExceptionAssignment</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,17 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FraudException.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Card.cs" />
-    <Compile Include="Properties\Dealer.cs" />
-    <Compile Include="Properties\Deck.cs" />
-    <Compile Include="Properties\Game.cs" />
-    <Compile Include="Properties\IWalkAway.cs" />
-    <Compile Include="Properties\Player.cs" />
-    <Compile Include="Properties\TwentyOneDealer.cs" />
-    <Compile Include="Properties\TwentyOneGame.cs" />
-    <Compile Include="Properties\TwentyOneRules.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

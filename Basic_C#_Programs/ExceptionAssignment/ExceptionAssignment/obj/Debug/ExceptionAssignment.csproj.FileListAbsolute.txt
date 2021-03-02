@@ -1,0 +1,6 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\ExceptionAssignment\ExceptionAssignment\bin\Debug\ExceptionAssignment.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\ExceptionAssignment\ExceptionAssignment\bin\Debug\ExceptionAssignment.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\ExceptionAssignment\ExceptionAssignment\bin\Debug\ExceptionAssignment.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\ExceptionAssignment\ExceptionAssignment\obj\Debug\ExceptionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\ExceptionAssignment\ExceptionAssignment\obj\Debug\ExceptionAssignment.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\ExceptionAssignment\ExceptionAssignment\obj\Debug\ExceptionAssignment.pdb
