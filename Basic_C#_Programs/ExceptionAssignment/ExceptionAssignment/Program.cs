@@ -18,11 +18,23 @@ namespace ExceptionAssignment
             try
             {
                 Console.WriteLine((date.Year) - age1);
+                if (age1 < 0)
+                {
+                    throw new ZeroException();
+                }
                 Console.ReadLine();
             }
-            catch
+            catch (ZeroException)
             {
-                
+                Console.WriteLine("you have to put a positive number");
+                Console.ReadLine();
+                return;
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("an error occurred");
+                Console.ReadLine();
+                return;
             }
             
         }
