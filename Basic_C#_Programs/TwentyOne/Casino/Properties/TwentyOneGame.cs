@@ -80,7 +80,7 @@ namespace Casino.TwentyOne
                     {
                         Console.Write("{0}", card.ToString());
                     }
-                    Console.WriteLine("\n\n Hit or Stand?");
+                    Console.WriteLine("\n\n Hit or Stay?");
                     string answer = Console.ReadLine().ToLower();
                     if (answer == "stay")
                     {

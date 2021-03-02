@@ -88,8 +88,9 @@ namespace Casino.TwentyOne
                 {
                     return false;
                 }
-            }
 
+            }
+            return false;
          
         }
         public static bool? CompareHands(List<Card> PlayerHand, List<Card> DealerHand)

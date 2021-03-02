@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne
 {
@@ -11,13 +13,12 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            //DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);
-            //DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 32, 45);
+            //with new constructor
+            //Player newPlayer = new Player("Austin");
+            const string casinoName = "Grand Hotel and Casino";
+         
 
-            //TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
-            
-
-            Console.WriteLine("Welcome to the Grand Hotel and Casino. What is your name?");
+            Console.WriteLine("Welcome to the {0}. What is your name?",  casinoName);
             string playerName = Console.ReadLine();
             Console.WriteLine("How much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
@@ -27,7 +28,12 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "y")
             {
                 Player player = new Player(playerName, bank);
-            
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\arigg\Logs\log.text", true))
+                {
+                    file.WriteLine(player.Id);
+                    ;
+                }
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
@@ -41,21 +47,26 @@ namespace TwentyOne
             Console.WriteLine("Feel free to look around casino. Thanks for playing");
             Console.ReadLine();
 
-
-
         }
     }
 }
-            //Deck deck = new Deck();
-                  
-            ////deck.Shuffle(3);
 
-            ////foreach (Card card in deck.Cards)
-            ////{
-            ////    Console.WriteLine(card.face + " of " + card.suit);
-            ////}
-            ////Console.WriteLine(deck.Cards.Count);
-            //Console.ReadLine();
+
+//Deck deck = new Deck();
+
+////deck.Shuffle(3);
+
+////foreach (Card card in deck.Cards)
+////{
+////    Console.WriteLine(card.face + " of " + card.suit);
+////}
+////Console.WriteLine(deck.Cards.Count);
+//Console.ReadLine();
+
+//DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);
+//DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 32, 45);
+
+//TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
 
 
 ////int count = deck.Cards.Count(x => x.face == Face.Ace);
