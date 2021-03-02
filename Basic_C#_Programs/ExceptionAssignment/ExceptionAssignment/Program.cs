@@ -10,19 +10,21 @@ namespace ExceptionAssignment
     {
         static void Main(string[] args)
         {
+           try {
+             
             Console.WriteLine("What is your age?");
             double age1 = Convert.ToDouble(Console.ReadLine());
 
             DateTime date = DateTime.Now;
 
-            try
-            {
+            
                 Console.WriteLine((date.Year) - age1);
-                if (age1 < 0)
+                if (age1 <= 0)
                 {
                     throw new ZeroException();
                 }
                 Console.ReadLine();
+                return;
             }
             catch (ZeroException)
             {
