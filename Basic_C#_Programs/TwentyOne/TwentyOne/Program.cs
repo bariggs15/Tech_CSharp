@@ -22,7 +22,22 @@ namespace TwentyOne
 
             Console.WriteLine("Welcome to the {0}. What is your name?",  casinoName);
             string playerName = Console.ReadLine();
+            if (playerName.ToLower() == "admin")
+            {
+                List<ExceptionEntity> Exceptions = ReadExceptions();
+                foreach(var exception in Exceptions)
+                {
+                    Console.Write(exception.ID + " ");
+                    Console.Write(exception.ExceptionType + "|");
+                    Console.Write(exception.ExceptionMessage + "|");
+                    Console.Write(exception.TimStamp + " | ");
+                    Console.WriteLine();
 
+                }
+
+                Console.Read();
+                return;
+            }
             bool validAnswer = false;
             int bank = 0;
             while (!validAnswer)
@@ -55,15 +70,17 @@ namespace TwentyOne
                     {
                         game.Play();
                     }
-                    catch (FraudException)
+                    catch (FraudException ex)
                     {
-                        Console.WriteLine("Security! Kick this person out");
+                        Console.WriteLine(ex.Message);
+                        UpdateDbWithExpception(ex);
                         Console.ReadLine();
                         return;
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
                         Console.WriteLine("an error occurred, please contact your system administrator");
+                        UpdateDbWithExpception(ex);
                         Console.ReadLine();
                         return;
                     }
@@ -101,6 +118,40 @@ namespace TwentyOne
                 command.ExecuteNonQuery();
                 connection.Close();
             }
+        }
+
+        private static List<ExceptionEntity> ReadExceptions()
+        {
+            string connectionString = @"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = TwentyOneGame;
+                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False;
+                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False";
+
+
+            string queryString = @"Select ID, ExceptionType, ExceptionMessage, TimeStamp, From Exceptions";
+
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while(reader.Read())
+                {
+                    ExceptionEntity exception = new ExceptionEntity();
+                    exception.ID = Convert.ToInt32(reader["ID"]);
+                    exception.ExceptionType = reader["ExceptionType"].ToString();
+                    exception.ExceptionMessage = reader["ExceptionMessage"].ToString();
+                    exception.TimStamp = Convert.ToDateTime(reader["TimeStamp"]);
+                    Exceptions.Add(exception);
+                }
+                connection.Close();
+
+            }
+            return Exceptions;
         }
     }
 }
