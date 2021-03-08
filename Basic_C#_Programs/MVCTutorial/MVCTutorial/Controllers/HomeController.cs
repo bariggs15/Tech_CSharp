@@ -1,8 +1,10 @@
-﻿using System;
+﻿using MVCTutorial.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+
 
 namespace MVCTutorial.Controllers
 {
@@ -31,7 +33,36 @@ namespace MVCTutorial.Controllers
 
             //return RedirectToAction("contact");
 
-            return View();
+
+
+
+
+            //List<string> names = new List<string> { "Austin", "Bradleigh", "Jim" };
+
+
+
+
+
+            //int num1 = 5;
+
+
+
+            User user = new User();
+
+            user.Id = 1;
+            user.fname = "Austin";
+            user.lname = "Riggs";
+            user.age = 31;
+
+          
+            
+
+                
+                 
+
+            
+            
+            return View(user);
         }
 
         public ActionResult About()
