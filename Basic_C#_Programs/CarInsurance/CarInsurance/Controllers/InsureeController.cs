@@ -50,24 +50,22 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
-                int base1 = 50;
-                //int runningTotal =  I"M NOT SURE HOW TO SET THIS UP. 
+                insuree.Quote += 50; 
+                
                 int age = DateTime.Now.Year - insuree.DateOfBirth.Year; 
                 
                 if (age <= 18)
                 {
-                    int younger = base1 + 100 ;
-                    return View(insuree);
+                    insuree.Quote += 100;
                 }
                 else if (age >19 && age < 25)
                 {
-                    int medium = base1 + 50;
-                    return View(insuree);
+                    insuree.Quote += 50;
+                    
                 }
                 else
                 {
-                    int older = base1 + 25;
-                    return View(insuree);
+                    insuree.Quote += 25;
                 }
 
 
@@ -75,54 +73,44 @@ namespace CarInsurance.Controllers
 
                 if (carYear < 2000)
                 {
-                    int olderCar = base1 + 25;
-                    return View(insuree);
+                    insuree.Quote += 25;
                 }
                 else if (carYear > 2015)
                 {
-                    int newCar = base1 + 25;
-                    return View(insuree);
+                    insuree.Quote += 25;
                 }
 
                 string carMake = insuree.CarMake;
 
                 if (carMake == "Porsche")
                 {
-                    int porsche = base1 + 25;
-                    return View(insuree);
-                
+                    insuree.Quote += 25;
+
                     if (carMake == "Porsche" && insuree.CarModel == "911 Carerra")
                     {
-                        int porscheplus = base1 + 50;
-                        return View(insuree);
+                        insuree.Quote += 50;
                     }
                 }
 
-                int speedingTicket = insuree.SpeedingTickets;
-                if (speedingTicket > 0)
+                
+                if (insuree.SpeedingTickets > 0)
                 {
-                    int extraSpeed = speedingTicket * 10;
-                    return View(insuree);
+                    insuree.Quote += (insuree.SpeedingTickets * 10);
+                    
                 }
 
                 if (insuree.DUI == true)
                 {
-                    insuree.Quote = runningTotal * 1.25;
-                    return View(insuree);
+                    insuree.Quote *=  1.25m;
+                    
                 }
-                else
-                {
-                    return View(insuree);
-                }
+               
 
                 if (insuree.CoverageType == true)
                 {
-                    insuree.Quote = runningTotal * 1.50;
+                    insuree.Quote *=  1.50m;
                 }
-                else
-                {
-                    return View(insuree);
-                }
+                
 
 
 
