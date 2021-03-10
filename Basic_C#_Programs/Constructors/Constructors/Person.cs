@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Constructors
 {
     public class Person
     {
-        public string name1;
+        public const string name1 = "Bruce";
         public int id;
-        
-
-        public Person (string name1 = "Austin" , int id = 5)
+        public Person(string Name, int ID1)
         {
-            this.name1 = name1;
-            this.id = id;
+            string name1 = Name;
+            var id = ID1;
         }
+              
     }
 }
+
+

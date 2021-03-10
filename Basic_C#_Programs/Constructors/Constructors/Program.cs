@@ -6,22 +6,15 @@ using System.Threading.Tasks;
 
 namespace Constructors
 {
-    class Program
+    public class Program 
     {
 
-        
-        
         static void Main(string[] args)
         {
-            const string dad = "Bruce";
-            var id = 200;
+               
+            Person person = new Person("Bruce", 200);
 
-            //Person boss = new Person(dad);
-
-            //Person bossid = new Person(id);
-
-            Person person = new Person(dad, id); 
-            ;
+            
             Console.ReadLine();
 
         } 
