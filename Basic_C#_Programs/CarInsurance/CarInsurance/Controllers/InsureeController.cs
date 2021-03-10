@@ -51,7 +51,7 @@ namespace CarInsurance.Controllers
             if (ModelState.IsValid)
             {
                 int base1 = 50;
-                int runningTotal = Convert.ToInt32(insuree.Quote());
+                //int runningTotal =  I"M NOT SURE HOW TO SET THIS UP. 
                 int age = DateTime.Now.Year - insuree.DateOfBirth.Year; 
                 
                 if (age <= 18)
