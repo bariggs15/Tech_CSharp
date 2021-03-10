@@ -1,0 +1,13 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.deps.json
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.runtimeconfig.json
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.runtimeconfig.dev.json
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.dll
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\bin\Debug\netcoreapp3.1\Scores.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.AssemblyInfoInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.AssemblyInfo.cs
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.dll
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\Scores\Scores\obj\Debug\netcoreapp3.1\Scores.genruntimeconfig.cache
