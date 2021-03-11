@@ -13,21 +13,19 @@ namespace Overload2
         public string LastName { get; set; }
 
 
-        public static bool operator== (Employee employee1, Employee employee2)
+        public static bool operator == (EmployeeID employee1, EmployeeID employee2)
         {
-            //takes in object information from ID and determines if they're equal. If they are they throw the error. If not it passes through. 
-            if (x == y)
-            {
-                throw new ArgumentException("Cannot have same ID#");
-                Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("the first employee is " + x + "\n the second employee is " + y);
-                Console.ReadLine();
-            }
+            return employee1.ID == employee2.ID; 
+
+           
         }
-        
+        public static bool operator != (EmployeeID employee1, EmployeeID employee2)
+        {
+            return employee1.ID != employee2.ID;
+
+
+        }
+
     }
    
 }

@@ -9,14 +9,19 @@ namespace Constructors
 {
     public class Person
     {
-        public const string name1 = "Bruce";
-        public int id;
-        public Person(string Name, int ID1)
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public Person(string name, int id)
         {
-            string name1 = Name;
-            var id = ID1;
+            this.Name = name;
+            this.Id = id;
         }
-              
+
+        public Person(string name) : this(name, 1)
+        {
+
+        }
+
     }
 }
 

@@ -13,7 +13,7 @@ namespace Overload2
            //creates instances of the employee object 
             EmployeeID employee1 = new EmployeeID();
             EmployeeID employee2 = new EmployeeID();
-            EmployeeID employee3 = new EmployeeID();
+            
         
             employee1.ID = 1;
             employee1.FirstName = "Michael";
@@ -24,7 +24,7 @@ namespace Overload2
             employee2.LastName = "Jordan";
 
             //employee3 is a placeholder that checks if 1 and 2 are the same
-            employee3.EmployeeCheck(employee1.ID, employee2.ID);
+            Console.WriteLine(employee1 == employee2);
 
            
 
