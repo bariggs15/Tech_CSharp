@@ -5,18 +5,16 @@ using System.Data.Entity;
 
 namespace StudentDatabase
 {
-    class student
+    public class student
     {
         public string FirstName { get; set; }
-        public virtual List<PostStudent> PostStudents{ get; set;}
+        public int Id { get; set; } 
     }
 
-    public class PostStudent: DbStudent
+    public class StudentContext: DbContext
     {
-        public DbSet<PostStudent> PostStudents { get; set; }
+        public DbSet<student> students { get; set; }
     }
 
-    public class DbStudent
-    {
-    }
+   
 }
