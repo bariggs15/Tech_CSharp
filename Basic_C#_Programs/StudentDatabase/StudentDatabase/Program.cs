@@ -12,6 +12,7 @@ namespace StudentDatabase
                 var FirstName = Console.ReadLine();
 
                 var student1 = new student { FirstName = FirstName };
+                student1.FirstName = "Austin";
                 db.PostStudents.Add(student1);
                 db.SaveChanges();
 

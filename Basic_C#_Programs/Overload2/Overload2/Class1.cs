@@ -13,7 +13,7 @@ namespace Overload2
         public string LastName { get; set; }
 
 
-        public void EmployeeCheck(int x, int y)
+        public static bool operator== (Employee employee1, Employee employee2)
         {
             //takes in object information from ID and determines if they're equal. If they are they throw the error. If not it passes through. 
             if (x == y)
