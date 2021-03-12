@@ -46,10 +46,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\README.md" />
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="ReadMe.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
