@@ -67,7 +67,7 @@ This project involves combining databases utilizing SQL Server Management Studio
 
 
 ### Twenty One Card Game
-This console application involved combining many techniques including loops, enums, inheritance, lambda statement, operators, overloading methods, iterations, etc. to play the game of twenty one. This is a snippet of code that is just one of the classes involved:
+This console application involved combining many techniques including loops, enums, inheritance, lambda statement, operators, overloading methods, iterations, etc. to play the game of twenty one. This is a snippet of code of just one of the classes involved:
 
     namespace Casino.TwentyOne
     {
