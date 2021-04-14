@@ -1,0 +1,7 @@
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\PracticeTechInt\PracticeTechInt\bin\Debug\PracticeTechInt.exe.config
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\PracticeTechInt\PracticeTechInt\bin\Debug\PracticeTechInt.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\PracticeTechInt\PracticeTechInt\bin\Debug\PracticeTechInt.pdb
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\PracticeTechInt\PracticeTechInt\obj\Debug\PracticeTechInt.csprojAssemblyReference.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\PracticeTechInt\PracticeTechInt\obj\Debug\PracticeTechInt.csproj.CoreCompileInputs.cache
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\PracticeTechInt\PracticeTechInt\obj\Debug\PracticeTechInt.exe
+C:\Users\arigg\source\Tech_C#\Tech_CSharp\Basic_C#_Programs\PracticeTechInt\PracticeTechInt\obj\Debug\PracticeTechInt.pdb
